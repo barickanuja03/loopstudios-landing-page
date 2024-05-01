@@ -1,0 +1,125 @@
+/* @media (max-width:1231px){
+   html,body{
+     margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+   }
+   .row1{
+   max-width:100% !important;
+   }
+   .header{
+    height:600px;
+   }
+   .logo-header{
+    gap:90px;
+    padding: 0px;
+   }
+    .logo{
+    margin-right:-130px !important;
+   } 
+     
+ .navbar-list{
+margin-left:0px !important;
+margin-top:-10px;
+padding-left: 25px;
+padding-right: 0px;
+}
+ .navbar-links{
+    margin-left:-30px;
+    margin-right:10px;
+    padding:-10px;
+ }
+ .row2{
+    max-width: 100% !important;
+    height:auto;
+ }
+  .container2{
+   margin:10px;
+  }
+  .main-sectio-img{
+    margin-left:0px !important;
+    width:60%;
+    height:60%;
+    padding: 0px;
+ }
+ .main-containt{
+    width: 100% !important;
+ }
+ .main-section-paragraph{
+ margin:-350px 0px 0px -400px;
+ padding:0px;
+ width:30rem;
+ }
+ .interactive-heading{
+    padding: 0px 0px 0px 0px;
+ }
+ .paragraph2{
+    padding-left:0;
+ }
+
+} */
+@media screen and (max-width:1260px)
+{
+   html,body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 10px;
+   }
+   .container1{
+      overflow-x: hidden;
+    /* max-width: 100%;*/
+   }
+   .logo{
+       margin-left:18rem;
+   }
+   .navbar{
+      margin-right:15rem;
+   }
+   .navbar-list{
+      padding:0rem;
+      margin:auto 0rem;
+   }
+   .navbar-links1{
+      margin-right: 15rem;
+      padding:-2rem;
+      gap:1rem;
+   }
+  /* .header-paragraph{
+      margin-right:45rem;
+      margin:0px;
+   }*/
+   .container2{
+      width: 100% !important;
+      overflow-x: hidden;
+
+   }
+   img3{
+    margin:auto 1rem;
+   }
+   img1{
+      margin:auto 13rem;
+     }
+
+
+  .main-sectio-img{         
+       position:relative;
+       margin:0rem;
+  }
+  .main-section-paragraph{
+      position:absolute;
+       margin:-35rem 10rem -15rem -15rem;
+       width:20rem;
+  }
+      .interactive-heading{
+          
+          font-size: 3rem;
+          word-spacing: .3rem;
+          padding:4rem 1rem 0rem 2rem;
+          line-height: 3rem;
+      }
+      .paragraph2{
+          font-size: .5rem;
+          padding:1.5rem 2rem;
+      }
+}

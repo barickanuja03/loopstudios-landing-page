@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100% !important;
+  font-size: 10px;
+  font-family: Alata;
+  overflow-x: hidden;
+}
+
+.container1 {
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  padding: 0 4rem;
+}
+.container1 .row1 {
+  height: auto;
+  width: 100%;
+}
+.container1 .row1 .logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 .row1 .logo-header .navbar-list {
+  display: flex;
+  gap: 5rem;
+  list-style-type: none;
+  margin-left: 15rem;
+}
+.container1 .row1 .logo-header .navbar-list .navbar-links1 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin: 2.5rem 3rem 0rem 5rem;
+}
+.container1 .row1 .logo-header .navbar-list .navbar-links2 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin: 2.5rem 3rem 0rem 5rem;
+}
+.container1 .row1 .logo-header .navbar-list .navbar-links3 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin: 2.5rem 3rem 0rem 5rem;
+}
+.container1 .row1 .logo-header .navbar-list .navbar-links4 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin: 2.5rem 3rem 0rem 5rem;
+}
+.container1 .row1 .header-paragraph {
+  margin: 9rem 24rem;
+  border: 1px solid white;
+  max-width: 42rem;
+  padding: auto 5rem;
+}
+.container1 .row1 .header-paragraph .paragraph {
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  word-spacing: 0.6rem;
+  line-height: 5rem;
+}
+
+/*container close*/
+/*=====================main- section design ========================*/
+.container2 {
+  width: 100%;
+  height: 50rem;
+  margin-top: 4rem;
+}
+.container2 .row2 {
+  height: auto;
+  width: 100%;
+}
+.container2 .row2 .main-sectio-img {
+  position: relative;
+  margin: 0rem 20rem;
+}
+.container2 .row2 .main-section-paragraph {
+  width: 45rem;
+  height: 36rem;
+  position: absolute;
+  margin: -35rem 35rem -15rem 78rem;
+  background-color: hsl(0, 0%, 100%);
+}
+.container2 .row2 .main-section-paragraph .interactive-heading {
+  color: hsl(0, 0%, 0%);
+  font-family: Alata;
+  font-weight: 500;
+  font-size: 5rem;
+  word-spacing: 1rem;
+  padding: 8rem 2rem 0rem 4rem;
+  line-height: 5rem;
+  text-transform: capitalize;
+}
+.container2 .row2 .main-section-paragraph .paragraph2 {
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 41%);
+  padding: 3rem 4rem;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+.image-container .row-3 {
+  height: auto;
+  width: 100%;
+}
+.image-container .row-3 .our-creation-heading {
+  width: 100%;
+  height: 7rem;
+}
+.image-container .row-3 .our-creation-heading .heading3 {
+  display: inline-block;
+  margin-left: 19.5rem;
+  font-size: 2rem;
+}
+.image-container .row-3 .our-creation-heading .seaall {
+  padding: 0.7rem 2rem;
+  margin-left: 70rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 0%);
+}
+.image-container .row-3 .creation-images {
+  width: 100%;
+}
+.image-container .row-3 .creation-images .img1 {
+  margin: 1rem 2rem 2rem 18.5rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img2 {
+  margin: 2rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img3 {
+  margin: 2rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img4 {
+  margin: 2rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img5 {
+  margin: 1rem 2rem 2rem 18.5rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img6 {
+  margin: 2rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img7 {
+  margin: 2rem;
+  height: 40rem;
+}
+.image-container .row-3 .creation-images .img8 {
+  margin: 2rem;
+  height: 40rem;
+}
+
+.footer-menu {
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  height: auto;
+}
+.footer-menu .logo {
+  color: white;
+  width: 40rem;
+  margin-left: 5rem;
+}
+.footer-menu .icon-bar {
+  margin-left: 80rem;
+  padding: 1rem;
+}
+.footer-menu .menu {
+  width: 100%;
+  margin: 3rem 3rem;
+}
+.footer-menu .menu .menu-links {
+  padding: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=style.css.map */

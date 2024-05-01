@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$DarkGray: hsl(0, 0%, 55%);
+$VeryDarkGray: hsl(0, 0%, 41%);
+html,body{
+    max-width: 100% !important;
+    font-size:10px;
+    font-family: Alata;
+    overflow-x: hidden;
+}
+.container1{
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40rem;
+    width: 100%;
+    position:relative;
+    padding: 0 4rem;
+    .row1{
+        height: auto; width:100%;
+      .logo-header{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+       //   width:100% !important;
+        // height:7rem;
+      //  .logo{
+      //       margin-left:15rem;
+      //       margin-top: 2rem;
+             
+      //   }
+    // .navbar{
+    //        margin-bottom: 0rem;
+    //        width: auto;
+    //        height:auto;
+      //      display: flex;
+      //    justify-content:flex-start;
+      //      align-items: center;
+      .navbar-list{
+          display: flex;
+          gap:5rem;
+          list-style-type: none;
+          margin-left:15rem;
+           .navbar-links1{
+             display: inline-block;
+             text-transform: uppercase;
+             text-decoration: none;
+             font-size: 1.4rem;
+             font-weight: 400;
+             color:$White;
+             margin:2.5rem 3rem 0rem 5rem
+           }
+           .navbar-links2{
+            display: inline-block;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color:$White;
+            margin:2.5rem 3rem 0rem 5rem
+          }
+          .navbar-links3{
+            display: inline-block;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color:$White;
+            margin:2.5rem 3rem 0rem 5rem
+          }
+          .navbar-links4{
+            display: inline-block;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color:$White;
+            margin:2.5rem 3rem 0rem 5rem
+          }
+
+         }
+  //   }
+   }
+       .header-paragraph{
+        margin:9rem 24rem;
+        border:1px solid white;
+        max-width:42rem;
+        padding:auto 5rem;
+        .paragraph{
+           color:$White;
+           font-size: 3rem;
+           text-transform:capitalize;
+           font-weight: 600;
+          word-spacing: .6rem;
+           line-height: 5rem;
+        }
+       }
+   }//row1 close
+}/*container close*/
+/*=====================main- section design ========================*/
+.container2{
+        width: 100%;
+        height:50rem;  
+        margin-top: 4rem;
+         .row2{
+             height: auto;
+             width:100%;
+    .main-sectio-img{         
+         position:relative;
+         margin:0rem 20rem;
+    }
+    .main-section-paragraph{
+        width:45rem; height:36rem;
+        position:absolute;
+         margin:-35rem 35rem -15rem 78rem;
+        background-color: $White;
+        .interactive-heading{
+            color:$Black;
+            font-family:Alata;
+            font-weight: 500;
+            font-size: 5rem;
+            word-spacing: 1rem;
+            padding:8rem 2rem 0rem 4rem;
+            line-height: 5rem;
+            text-transform: capitalize;
+        }
+        .paragraph2{
+            font-size: 1.3rem;
+            color: $VeryDarkGray;
+            padding:3rem 4rem;
+        }
+
+    }
+}
+    
+}
+
+ .image-container{
+  width:100%;
+  height: auto;
+  margin-top:2rem;
+  .row-3{
+    height:auto;
+    width: 100%;
+    .our-creation-heading{
+      width:100%;
+      height:7rem;
+      .heading3{
+        display:inline-block;
+        margin-left:19.5rem;
+        font-size: 2rem;
+      }
+      .seaall{
+        padding:.7rem 2rem;
+        margin-left:70rem;
+        font-size:2rem;
+        text-transform: uppercase;
+        color:$Black;
+      }
+    }
+    .creation-images{
+      width:100%;
+      // display:flex;
+      // justify-content: center;
+      // align-items: center;
+      // margin:3rem;
+       .img1{
+        margin:1rem 2rem  2rem 18.5rem;
+        height:40rem;
+      }
+      .img2{
+        margin:2rem;
+        height:40rem;
+      }
+      .img3{
+        margin:2rem;
+        height:40rem;
+      }
+      .img4{
+        margin:2rem;
+        height:40rem;
+      }
+      .img5{
+        margin:1rem 2rem  2rem 18.5rem;
+        height:40rem;
+      }
+      .img6{
+        margin:2rem;
+        height:40rem;
+      }
+      .img7{
+        margin:2rem;
+        height:40rem;
+      }
+      .img8{
+        margin:2rem;
+        height:40rem;
+      }
+    }
+  }
+ }
+.footer-menu{
+  background-color: $Black;
+  width: 100%;
+  height:auto;
+  .logo{
+    color:white;
+    width:40rem;
+   margin-left:5rem;
+  }
+  .icon-bar{
+    margin-left:80rem;
+    padding:1rem;
+  }
+  .menu{
+    width: 100%;
+    margin:3rem 3rem;
+    .menu-links{
+       padding:2rem;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color:$White;
+    }
+  }
+}
